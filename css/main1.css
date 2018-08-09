@@ -6,23 +6,29 @@ H4: 16 Lato (main body text)
 H5: 14 Lato 
 H6: 12 Lato
 */
+
 .embed-container {
-  position: relative;
-  padding-bottom: 56.25%;
-  height: 0;
-  overflow: hidden;
-  max-width: 100%;
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
 }
 
 .embed-container iframe,
 .embed-container object,
 .embed-container embed {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
+.change-ws >a.dropdown-item {
+    white-space: inherit;
+    z-index: 1000;
+}
+
 article,
 aside,
 dialog,
@@ -33,7 +39,7 @@ header,
 hgroup,
 main,
 section {
-    overflow-x: hidden;
+    /*overflow-x: hidden;*/
 }
 
 .w-60 {
@@ -98,7 +104,8 @@ section {
 .carousel-indicators {
     position: relative;
 }
-.carousel-indicators li{
+
+.carousel-indicators li {
     background-color: #4A90E2;
 }
 
@@ -133,6 +140,9 @@ section {
 .mt-40 {
     margin-top: 40px;
 }
+.mt-5{
+    margin-top: 5px;
+}
 
 .mt-50 {
     margin-top: 50px;
@@ -160,6 +170,10 @@ section {
 
 .pt-10 {
     padding-top: 10px;
+}
+
+.pr-30 {
+    padding-right: 30px;
 }
 
 .pl-10 {
@@ -200,13 +214,14 @@ section {
     margin: 0px;
     padding: 0px;
 }
-.icon-play{
+
+.icon-play {
     color: white;
     text-align: black;
     z-index: 1000;
     position: absolute;
     top: 40%;
-    
+
 }
 
 .acn-font-color-1 {
@@ -243,7 +258,6 @@ section {
 .mb-r i {
     margin-bottom: 0rem!important;
 }
-
 /*#FF7331*/
 
 .acn-font-color-2 {
@@ -396,7 +410,8 @@ sub {
 .major-white {
     color: white;
 }
-.major-black{
+
+.major-black {
     color: black;
 }
 
@@ -476,7 +491,8 @@ sub {
 .font-size-12 {
     font-size: 12px;
 }
-.line-height-24{
+
+.line-height-24 {
     line-height: 48px;
 }
 
@@ -528,6 +544,9 @@ h6 {
     /*    color: white;*/
     height: 40px;
     width: 200px;
+}
+.acn-btn-size-ss{
+    width: 340px;
 }
 
 .acn-btn-size-SA {
@@ -588,7 +607,8 @@ body {
 .d-Dnone {
     display: none;
 }
-.d-hidedd{
+
+.d-hidedd {
     display: none;
 }
 
@@ -656,6 +676,7 @@ button.btn.btn-secondary.dropdown-toggle{
 .section-cinfo {
     padding-top: 3rem;
 }
+
 
 /*Awards*/
 
@@ -820,20 +841,24 @@ button.btn.btn-secondary.dropdown-toggle{
 
 #l-banner-ss {
     height: 100%;
-    background: url(../images/successstory_mobile.png) center;
-    background-size: cover;
+    background-color: rgba(0,40,85,0.3);
+    /*background: url(../images/Success_Story_Pics/Header/SS_Header_Mobile.png) center;
+    background-size: cover;*/
 }
-#l-banner-CL{
+
+#l-banner-CL {
     height: 100%;
     background: url(../images/Customer_login_mobile.png) center;
     background-size: cover;
 }
+
 #l-banner-wACN {
     height: 100%;
     background: url(../images/WhyACN_Mobile/header_image.png) center;
     background-size: cover;
 }
-#l-banner-whoACN{
+
+#l-banner-whoACN {
     height: 100%;
     background: url(../images/Who_is_ACN_image/Who_Is_ACN_mobile/header_image.png) center;
     background-size: cover;
@@ -841,7 +866,7 @@ button.btn.btn-secondary.dropdown-toggle{
 
 #l-banner-wacntext {
     height: 100%;
-    background: url(../images/WhyACN_Mobile/bottom_banner_image.png) center;
+    background: url(../images/WhyACN_Mobile/event_mobile.png) center;
     background-size: cover;
 }
 
@@ -886,18 +911,23 @@ button.btn.btn-secondary.dropdown-toggle{
     margin-top: 50px;
     margin-bottom: 180px;
 }
-.l-banner-position-CL{
+.l-banner-position-ss{
+    margin-top: 50px;
+    margin-bottom: 125px;
+}
+
+.l-banner-position-CL {
     margin-top: 115px;
     margin-bottom: 115px;
 }
 
 .l-banner-position-wACN {
-    margin-top: 50px;
+    margin-top: 100px;
     margin-bottom: 100px;
 }
 
 .l-banner-position-wacntext {
-    margin-top: 200px;
+    margin-top: 120px;
     margin-bottom: 30px;
 }
 
@@ -971,7 +1001,8 @@ button.btn.btn-secondary.dropdown-toggle{
     width: 240px;
     margin-top: -80px;
 }
-.btn-position-CL{
+
+.btn-position-CL {
     position: absolute;
     margin-top: 10px;
     width: 240px;
@@ -1089,7 +1120,8 @@ carousel-example-generic {
     background-color: #57C8CD;
     /*    height: 365pt;*/
 }
-.bg-colorcomment{
+
+.bg-colorcomment {
     background-color: #F2F5F9!important;
 }
 
@@ -1176,7 +1208,8 @@ section#support ul > li {
     background-size: cover;
     color: white;
 }
-#co-founder{
+
+#co-founder {
     height: 100%;
     background: url(../images/Who_is_ACN_image/Who_Is_ACN_Desktop/co-founder-banner.png);
     background-size: cover;
@@ -1252,13 +1285,12 @@ a.foot-links {
     color: white;
 }
 
-
 div.col-sm-2.col-6 {
     padding: 0;
 }
-.heightwhy{
-    height:49px;
-    overflow: hidden;
+
+.heightwhy {
+    height: 49px;
 }
 
 .l-banner-btn-size {
@@ -1320,14 +1352,20 @@ div.col-sm-2.col-6 {
     #ss-section > div.container {
         max-width: 100%;
     }
-    #co-founder > div.container{
+    #co-founder > div.container {
         max-width: 1460px;
     }
     .commit_wisacn > div.container {
         max-width: 730px;
     }
-    .commit_wisacnpeople > div.container{
+    .commit_wisacnpeople > div.container {
         max-width: 1481px;
+    }
+    #Success_story > div.container{
+        max-width: 1460px;
+    }
+    #fourcolumns_M > div.container {
+        max-width: 730px;
     }
 }
 
@@ -1347,8 +1385,18 @@ div.col-sm-2.col-6 {
 /*}*/
 
 @media only screen and (min-width: 992px) {
+    
     .tablet-pc-btn-float-left {
         float: left;
+    }
+    .mtt-185 {
+        margin-top: -185px!important;
+    }
+    .mbD-0{
+        margin-bottom: 0px;
+    }
+    .mt-11{
+        margin-top: 5px;
     }
     .wdt-60 {
         width: 20%;
@@ -1359,6 +1407,12 @@ div.col-sm-2.col-6 {
     .cimg-ic {
         height: 45px;
         width: 150px;
+    }
+    .bg-ss-color{
+        background-color: rgba(0,40,85,0.3);
+    }
+    .heightPFK{
+        height: 400px;
     }
     .align-l {
         position: relative;
@@ -1389,6 +1443,12 @@ div.col-sm-2.col-6 {
     }
     .d-hidem {
         display: none;
+    }
+    .d-Dnone1{
+        display: none;
+    }
+    .text-rightss{
+        float: right;
     }
 
     /*    pc width home phone banner h1*/
@@ -1433,12 +1493,13 @@ div.col-sm-2.col-6 {
     .change-font-16 {
         font-size: 16px;
     }
-
+    .mt-160 {
+        margin-top: 160px;
+    }
     #l-banner {
         height: 100%;
         background: url(../images/HSIDesktop-img.png) center;
         background-size: cover;
-
     }
     #l-banner-enrg {
         height: 100%;
@@ -1513,20 +1574,21 @@ div.col-sm-2.col-6 {
     }
     #l-banner-ss {
         height: 100%;
-        background: url(../images/successstory_Desktop.png) center;
-        background-size: cover;
+        background-color: rgba(0,40,85,0.3);
+        /*background: url(../images/Success_Story_Pics/Header/SS_Header_Desktop.png) center;
+        background-size: cover;*/
     }
-    #l-banner-CL{
+    #l-banner-CL {
         height: 100%;
         background: url(../images/Customer_login_desktop.png) center;
         background-size: cover;
     }
-    #l-banner-wACN{
+    #l-banner-wACN {
         height: 100%;
         background: url(../images/WhyACN_Desktop/Header_image.png) center;
         background-size: cover;
     }
-    #l-banner-whoACN{
+    #l-banner-whoACN {
         height: 100%;
         background: url(../images/Who_is_ACN_image/Who_Is_ACN_Desktop/header_image.png) center;
         background-size: cover;
@@ -1573,7 +1635,11 @@ div.col-sm-2.col-6 {
         margin-bottom: 120px;
         margin-top: 100px;
     }
-    .l-banner-position-CL{
+    .l-banner-position-ss{
+        margin-bottom: 120px;
+        margin-top: 100px;
+    }
+    .l-banner-position-CL {
         margin-bottom: 120px;
         margin-top: 100px;
     }
@@ -1582,8 +1648,8 @@ div.col-sm-2.col-6 {
         margin-top: 80px;
     }
     .l-banner-position-wACN {
-        margin-bottom: 100px;
-        margin-top: 120px;
+        margin-bottom: 175px;
+        margin-top: 175px;
     }
     .l-banner-position-GE {
         margin-bottom: 130px;
@@ -1714,18 +1780,39 @@ div.col-sm-2.col-6 {
     .d-Dnone {
         display: block;
     }
-    .mt--18{
+    .d-Dnone1{
+        display: none;
+    }
+    .mt--18 {
         margin-left: -18rem;
     }
-    .mTt-80{
+    .mb-t {
+        margin-bottom: 0px;
+    }
+    .mt-t {
+        margin-top: 0px;
+    }
+    .mt-11{
+        margin-top: 11px;
+    }
+    .mTt-80 {
         margin-top: 85px;
     }
-    .major-bgwhite{
+    .heightss{
+        height: 63px;
+    }
+    .mt-160 {
+        margin-top: 60px;
+    }
+    .major-bgwhite {
         background-color: white;
     }
     .simple {
         position: relative;
         left: 30px;
+    }
+    .line-height-60{
+        line-height: 60px;
     }
     .img-sizes {
         width: 60%;
@@ -1905,20 +1992,21 @@ div.col-sm-2.col-6 {
     }
     #l-banner-ss {
         height: 100%;
-        background: url(../images/successstory_tablet.png) center;
-        background-size: cover;
+        background-color: rgba(0,40,85,0.3);
+        /*background: url(../images/Success_Story_Pics/Header/SS_Header_Tablet.png) center;
+        background-size: cover;*/
     }
-    #l-banner-CL{
+    #l-banner-CL {
         height: 100%;
         background: url(../images/Customer_login_tablet.png) center;
         background-size: cover;
     }
-    #l-banner-wACN{
+    #l-banner-wACN {
         height: 100%;
         background: url(../images/WhyACN_Tablet/why_header.png) center;
         background-size: cover;
     }
-    #l-banner-whoACN{
+    #l-banner-whoACN {
         height: 100%;
         background: url(../images/Who_is_ACN_image/WhoIsACN_Tablet/banner_header.png) center;
         background-size: cover;
@@ -1964,12 +2052,16 @@ div.col-sm-2.col-6 {
         margin-top: 27px;
         margin-bottom: 128px;
     }
-    .l-banner-position-CL{
+    .l-banner-position-ss{
+        margin-top: 30px;
+        margin-bottom: 128px;
+    }
+    .l-banner-position-CL {
         margin-top: 27px;
         margin-bottom: 128px;
     }
     .l-banner-position-wACN {
-        margin-top: 50px;
+        margin-top: 100px;
         margin-bottom: 100px;
     }
     .l-banner-position-wacntext {
@@ -1989,8 +2081,8 @@ div.col-sm-2.col-6 {
         margin-bottom: 75px;
     }
     .l-banner-position-PFK {
-        margin-top: 75px;
-        margin-bottom: 75px;
+        margin-top: 115px;
+    margin-bottom: 115px;
     }
     .l-banner-position-GB {
         margin-top: 75px;
@@ -2040,7 +2132,7 @@ div.col-sm-2.col-6 {
         background: url(../images/givingback-tablet.png) center;
         background-size: cover;
     }
-    #co-founder{
+    #co-founder {
         height: 100%;
         background: url(../images/Who_is_ACN_image/WhoIsACN_Tablet/co-founders-banner.png) center;
         background-size: cover;
@@ -2119,16 +2211,16 @@ div.col-sm-2.col-6 {
     .d-Dnone {
         display: block;
     }
-    .d-hidedd{
+    .d-hidedd {
         display: block;
     }
-    .major-bgmwhite{
+    .major-bgmwhite {
         background-color: white;
     }
     .d-hidemm {
         display: none;
     }
-    .marginTB{
+    .marginTB {
         margin-bottom: -89px;
         margin-top: 90px;
     }
@@ -2152,10 +2244,13 @@ div.col-sm-2.col-6 {
     .dps-infographic {
         width: 30%;
     }
+    .pr-30 {
+        padding-right: 0px;
+    }
     .mt-0 {
         margin-top: 0px;
     }
-    .mtt-0{
+    .mtt-0 {
         margin-top: 0px;
     }
     .mb-r {
@@ -2206,6 +2301,9 @@ div.col-sm-2.col-6 {
     .mtt-40 {
         margin-top: 40px;
     }
+    .font-size-24t {
+        font-size: 24px;
+    }
 
     .imgmt-40 {
         margin-top: 40px;
@@ -2234,9 +2332,7 @@ div.col-sm-2.col-6 {
     .mt-330 {
         margin-top: -330px;
     }
-    .mt-50 {
-        margin-top: 77px;
-    }
+    
     .change-width {
         width: 45%;
     }
@@ -2270,7 +2366,7 @@ div.col-sm-2.col-6 {
         background: url(../images/givingback-mobile.png) center;
         background-size: cover;
     }
-    #co-founder{
+    #co-founder {
         height: 100%;
         background: url(../images/Who_is_ACN_image/Who_Is_ACN_mobile/co-founder_banner.png) center;
         background-size: cover;
